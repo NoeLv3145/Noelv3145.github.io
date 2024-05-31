@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-form {
+    background-color: #ffffff54;
+    border: 1px solid #dbdbdb31;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #dbdbdb98;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.login-button {
+    background-color: #42b1fc;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #42b1fc;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-weight: bold;
+}
+
+.facebook-login .fb-login-button {
+    background-color: #4267b2;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.forgot-password {
+    color: #00376b;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.signup-section {
+    background-color: #fff;
+    border: 1px solid #dbdbdb00;
+    padding: 20px;
+}
+
+.signup-section a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.app-buttons img {
+    width: 136px;
+    margin: 5px;
+}
+
+
+
+
+.language-selector {
+    margin-top: 20px;
+}
+
+.language-selector label {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+.language-selector select {
+    padding: 5px;
+    border: 1px solid #dbdbdb00;
+    border-radius: 0px;
+    background-color: #e7212100;
+    font-size: 14px;
+    color: #585858af;
+}
+
+
+
+.face img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
